@@ -1,0 +1,15 @@
+os: linux
+dist: focal
+language: python
+addons:
+  sbom:
+    on:
+      branch: master
+      pr: true
+      condition: $OS = linux 
+    run_phase: before_script
+    output_format: spdx-xml
+  mariadb: '10.0'
+script:
+  - python hello.py
+  - pip install -r requirements.txt
