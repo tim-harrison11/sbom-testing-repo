@@ -1,2 +1,2 @@
 # sbom-testing-repo
-SBOM testing repo
+travis testing repo
