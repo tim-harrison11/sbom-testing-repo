@@ -1,5 +1,5 @@
 os: linux
 dist: jammy
 before_install:
-    - git clone https://${GITHUB_TOKEN}@github.com/travis-testing-hub/public-repo-test1.git
+    - git clone https://${GITHUB_TOKEN}@github.com/tim-harrison10/repoTest1.git
 script: true
